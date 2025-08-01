@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haitham Omar's Portfolio | Software Developer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -90,15 +89,15 @@
                     </p>
                     <div class="about-highlights">
                         <div class="highlight-item">
-                            <i class="fas fa-code"></i>
+                            <img src="assets/icons/code.svg" alt="Code" class="highlight-icon">
                             <span>Clean Code Advocate</span>
                         </div>
                         <div class="highlight-item">
-                            <i class="fas fa-lightbulb"></i>
+                            <img src="assets/icons/lightbulb.svg" alt="Lightbulb" class="highlight-icon">
                             <span>Creative Problem Solver</span>
                         </div>
                         <div class="highlight-item">
-                            <i class="fas fa-users"></i>
+                            <img src="assets/icons/users.svg" alt="Users" class="highlight-icon">
                             <span>Team Collaborator</span>
                         </div>
                     </div>
@@ -111,88 +110,113 @@
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">Programming Languages & Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-js-square"></i>
-                    </div>
-                    <h3>JavaScript</h3>
-                    <p>Modern ES6+ syntax, DOM manipulation, and asynchronous programming</p>
-                    <div class="skill-level">
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
-                        <span>85%</span>
+            <div class="solar-system">
+                <!-- Central Sun (Developer) -->
+                <div class="sun">
+                    <div class="sun-content">
+                        <div class="sun-icon">💻</div>
+                        <h3>Haitham's skills</h3>
                     </div>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-python"></i>
-                    </div>
-                    <h3>Python</h3>
-                    <p>Data structures, algorithms, web development, and automation</p>
-                    <div class="skill-level">
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%"></div>
+                <!-- Orbit 1 - Core Skills -->
+                <div class="orbit orbit-1">
+                    <div class="planet planet-html" tabindex="0">
+                        <img src="assets/icons/html5.svg" alt="HTML5" class="planet-icon">
+                        <div class="skill-level-display">
+                            <div class="skill-name">HTML5</div>
+                            <div class="skill-percentage">90%</div>
+                            <div class="skill-bar-mini">
+                                <div class="skill-progress-mini" style="width: 90%"></div>
+                            </div>
                         </div>
-                        <span>60%</span>
+                    </div>
+                    <div class="planet planet-css" tabindex="0">
+                        <img src="assets/icons/css3.svg" alt="CSS3" class="planet-icon">
+                        <div class="skill-level-display">
+                            <div class="skill-name">CSS3</div>
+                            <div class="skill-percentage">88%</div>
+                            <div class="skill-bar-mini">
+                                <div class="skill-progress-mini" style="width: 88%"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-java"></i>
-                    </div>
-                    <h3>PHP</h3>
-                    <p>Object-oriented programming, Laravel framework, and enterprise applications</p>
-                    <div class="skill-level">
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%"></div>
+                <!-- Orbit 2 - Programming Languages -->
+                <div class="orbit orbit-2">
+                    <div class="planet planet-js" tabindex="0">
+                        <img src="assets/icons/java-script.png" alt="JavaScript" class="planet-icon">
+                        <div class="skill-level-display">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-percentage">85%</div>
+                            <div class="skill-bar-mini">
+                                <div class="skill-progress-mini" style="width: 85%"></div>
+                            </div>
                         </div>
-                        <span>55%</span>
+                    </div>
+                    <div class="planet planet-python" tabindex="0">
+                        <img src="assets/icons/python.png" alt="Python" class="planet-icon">
+                        <div class="skill-level-display">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-percentage">80%</div>
+                            <div class="skill-bar-mini">
+                                <div class="skill-progress-mini" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                <!-- Orbit 3 - Frameworks -->
+                <div class="orbit orbit-3">
+                    <div class="planet planet-react" tabindex="0">
+                        <img src="assets/icons/react.svg" alt="React" class="planet-icon">
+                        <div class="skill-level-display">
+                            <div class="skill-name">React</div>
+                            <div class="skill-percentage">70%</div>
+                            <div class="skill-bar-mini">
+                                <div class="skill-progress-mini" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="planet planet-php" tabindex="0">
+                        <img src="assets/icons/php.png" alt="PHP" class="planet-icon">
+                        <div class="skill-level-display">
+                            <div class="skill-name">PHP</div>
+                            <div class="skill-percentage">75%</div>
+                            <div class="skill-bar-mini">
+                                <div class="skill-progress-mini" style="width: 75%"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-html5"></i>
-                    </div>
-                    <h3>HTML5</h3>
-                    <p>Semantic markup, accessibility, and modern web standards</p>
-                    <div class="skill-level">
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
-                        </div>
-                        <span>90%</span>
-                    </div>
-                </div>
 
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-css3-alt"></i>
-                    </div>
-                    <h3>CSS3</h3>
-                    <p>Responsive design, animations, and modern layout techniques</p>
-                    <div class="skill-level">
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 88%"></div>
+                <!-- Static Skills Legend -->
+                <div class="skills-legend">
+                    <h3>Technical Proficiency Overview</h3>
+                    <div class="legend-content">
+                        <div class="legend-item">
+                            <span class="legend-label">Beginner</span>
+                            <div class="legend-bar">
+                                <div class="legend-progress" style="width: 30%; background: #ff6b6b;"></div>
+                            </div>
+                            <span>0-40%</span>
                         </div>
-                        <span>88%</span>
-                    </div>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-react"></i>
-                    </div>
-                    <h3>React</h3>
-                    <p>Component-based architecture, hooks, and state management</p>
-                    <div class="skill-level">
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 70%"></div>
+                        <div class="legend-item">
+                            <span class="legend-label">Intermediate</span>
+                            <div class="legend-bar">
+                                <div class="legend-progress" style="width: 60%; background: #ffd93d;"></div>
+                            </div>
+                            <span>41-70%</span>
                         </div>
-                        <span>70%</span>
+                        <div class="legend-item">
+                            <span class="legend-label">Advanced</span>
+                            <div class="legend-bar">
+                                <div class="legend-progress" style="width: 90%; background: #6bcf7f;"></div>
+                            </div>
+                            <span>71-100%</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,7 +231,7 @@
                 <div class="education-info">
                     <div class="education-item">
                         <div class="education-icon">
-                            <i class="fas fa-graduation-cap"></i>
+                            <img src="assets/icons/graduate-hat.png" alt="App Development" class="icon">
                         </div>
                         <div class="education-details">
                             <h3>Bachelor of Science in Information Technology</h3>
@@ -225,7 +249,7 @@
                     <h3>Download My CV</h3>
                     <p>Get a detailed overview of my experience, education, and achievements.</p>
                     <a href="assets/resume.pdf" class="btn btn-download" download>
-                        <i class="fas fa-download"></i>
+                        <img src="assets/icons/download.svg" alt="Download" class="icon">
                         Download CV (PDF)
                     </a>
                 </div>
@@ -243,11 +267,11 @@
                         <img src="assets/Team-brothers.png" alt="Team-Brothers Platform">
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
+                                <a href="https://team-brothers.vercel.app/" class="project-link" target="_blank">
+                                    <img src="assets/icons/external-link.svg" alt="External Link" class="icon">
                                 </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
+                                <a href="https://github.com/bajunii/Team-Brothers" class="project-link" target="_blank">
+                                    <img src="assets/icons/github.svg" alt="GitHub" class="icon">
                                 </a>
                             </div>
                         </div>
@@ -268,11 +292,11 @@
                         <img src="assets/portfolio.png" alt="Portfolio Website">
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
+                                <a href="https://my-portfolio-khaki-seven-67.vercel.app/" class="project-link" target="_blank">
+                                    <img src="assets/icons/external-link.svg" alt="External Link" class="icon">
                                 </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
+                                <a href="https://github.com/bajunii/My-Portfolio" class="project-link"  target="_blank">
+                                    <img src="assets/icons/github.svg" alt="GitHub" class="icon">
                                 </a>
                             </div>
                         </div>
@@ -302,7 +326,7 @@
                 <div class="interests-grid">
                     <div class="interest-card">
                         <div class="interest-icon">
-                            <i class="fas fa-brain"></i>
+                            <img src="assets/icons/brain.png" alt="Brain" class="icon">
                         </div>
                         <h3>Artificial Intelligence</h3>
                         <p>Fascinated by machine learning, neural networks, and the potential of AI to solve complex problems.</p>
@@ -310,7 +334,7 @@
 
                     <div class="interest-card">
                         <div class="interest-icon">
-                            <i class="fas fa-mobile-alt"></i>
+                            <img src="assets/icons/app-development.png" alt="Mobile" class="icon">
                         </div>
                         <h3>Mobile Development</h3>
                         <p>Exploring cross-platform mobile app development and creating seamless user experiences on mobile devices.</p>
@@ -318,7 +342,7 @@
 
                     <div class="interest-card">
                         <div class="interest-icon">
-                            <i class="fas fa-cloud"></i>
+                            <img src="assets/icons/cloud.svg" alt="Cloud" class="icon">
                         </div>
                         <h3>Cloud Computing</h3>
                         <p>Learning about cloud architectures, serverless computing, and scalable distributed systems.</p>
@@ -326,7 +350,7 @@
 
                     <div class="interest-card">
                         <div class="interest-icon">
-                            <i class="fas fa-shield-alt"></i>
+                            <img src="assets/icons/security.png" alt="Shield" class="icon">
                         </div>
                         <h3>Cybersecurity</h3>
                         <p>Understanding security principles, ethical hacking, and building secure applications.</p>
@@ -334,7 +358,7 @@
 
                     <div class="interest-card">
                         <div class="interest-icon">
-                            <i class="fas fa-gamepad"></i>
+                            <img src="assets/icons/game-development.png" alt="Gamepad" class="icon">
                         </div>
                         <h3>Game Development</h3>
                         <p>Creating interactive experiences and exploring the intersection of creativity and technology.</p>
@@ -342,7 +366,7 @@
 
                     <div class="interest-card">
                         <div class="interest-icon">
-                            <i class="fas fa-book"></i>
+                            <img src="assets/icons/learning.png" alt="Book" class="icon">
                         </div>
                         <h3>Continuous Learning</h3>
                         <p>Always reading tech blogs, taking online courses, and staying updated with the latest industry trends.</p>
@@ -363,28 +387,28 @@
                     
                     <div class="contact-details">
                         <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
+                            <img src="assets/icons/envelope.svg" alt="Email" class="icon">
                             <span>haithamomar520@gmail.com</span>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-phone"></i>
+                            <img src="assets/icons/phone.svg" alt="Phone" class="icon">
                             <span>+254 (794) 320 563</span>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <img src="assets/icons/map-marker.svg" alt="Location" class="icon">
                             <span>Mombasa County, Kenya</span>
                         </div>
                     </div>
 
                     <div class="social-links">
                         <a href="https://github.com/bajunii/bajunii" class="social-link" target="_blank">
-                            <i class="fab fa-github"></i>
+                            <img src="assets/icons/github.svg" alt="GitHub" class="icon">
                         </a>
                         <a href="https://www.linkedin.com/in/haithamomar" class="social-link" target="_blank">
-                            <i class="fab fa-linkedin"></i>
+                            <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="icon">
                         </a>
                         <a href="https://x.com/HaithamOma56317" class="social-link" target="_blank">
-                            <i class="fab fa-twitter"></i>
+                            <img src="assets/icons/twitter.svg" alt="Twitter" class="icon">
                         </a>
                     </div>
                 </div>
@@ -411,7 +435,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary">
-                        <i class="fas fa-paper-plane"></i>
+                        <img src="assets/icons/paper-plane.svg" alt="Send" class="icon">
                         Send Message
                     </button>
                 </form>

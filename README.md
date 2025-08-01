@@ -93,6 +93,7 @@ Personal-Folder/
     └── resume.pdf      # Downloadable CV
     └── FREE.jpg      # Profile picture
     └── Team-brothers.png   # Project background image
+    └── icons/          # Folder containing icon images
 
 
 ```
@@ -187,7 +188,7 @@ This project is created for educational purposes as part of the August Cohort Po
 ## 🙏 Acknowledgments
 
 - August Cohort Community for the challenge opportunity
-- Font Awesome for the beautiful icons
+- Flaticons for the beautiful icons
 - Google Fonts for typography
 - The web development community for inspiration and best practices
 
@@ -195,4 +196,4 @@ This project is created for educational purposes as part of the August Cohort Po
 
 **Built with ❤️ by Omar for the August Cohort Portfolio Challenge**
 
-*Last updated: July 31, 2025*
+*Last updated: August 01, 2025*
