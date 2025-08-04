@@ -97,6 +97,8 @@ Personal-Folder/
 
 
 ```
+## Access the portfolio
+https://haitham-omar.netlify.app/
 
 ## 🚀 Getting Started
 
